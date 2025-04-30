@@ -1,0 +1,40 @@
+/* Base Typography */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--primary-white);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/* Text Sizes */
+.text-display {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.text-h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.5;
+}

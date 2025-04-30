@@ -1,0 +1,17 @@
+:root {
+  /* Primary Colors */
+  --primary-pink: #FF4D8D;
+  --primary-white: #FFFFFF;
+  --dark-background: #0B0B10;
+  
+  /* Secondary Colors */
+  --light-gray: #F5F5F5;
+  --dark-gray: #333333;
+  --hover-pink: #E7447F;
+  
+  /* Additional UI Colors */
+  --card-background: #1A1A24;
+  --text-gray: #B8B8C6;
+  --gradient-start: #A646FF;
+  --gradient-end: #7A1DCB;
+}

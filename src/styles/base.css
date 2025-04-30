@@ -1,0 +1,11 @@
+@layer base {
+  body {
+    @apply bg-background-primary text-text-body font-body antialiased;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans text-white font-bold tracking-tight;
+  }
+}

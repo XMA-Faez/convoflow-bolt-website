@@ -1,0 +1,47 @@
+@layer utilities {
+  /* Previous utilities remain */
+
+  /* Interactive Box Utilities */
+  .interactive-box {
+    @apply bg-white/5 rounded-xl border border-white/10
+           transition-all duration-300 ease-in-out
+           hover:scale-102 hover:bg-white/10
+           hover:shadow-[0_0_30px_rgba(255,77,141,0.2)]
+           transform-gpu will-change-transform;
+  }
+
+  .interactive-box-lg {
+    @apply interactive-box
+           hover:scale-105;
+  }
+
+  .interactive-box-accent {
+    @apply interactive-box
+           hover:border-[#FF4D8D]/30;
+  }
+
+  /* Animation Utilities */
+  .animate-fade-slide-up {
+    animation: fadeSlideUp 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2000ms;
+  }
+
+  /* Maintain proper spacing */
+  .interactive-box-container {
+    @apply p-1; /* Prevents layout shift on hover */
+  }
+}

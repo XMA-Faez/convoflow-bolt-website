@@ -1,0 +1,24 @@
+@layer components {
+  .btn {
+    @apply px-8 py-4 rounded-xl font-bold transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-primary text-white shadow-glow 
+           hover:shadow-glow-strong hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-background-card text-white border-2 border-brand-purple
+           hover:bg-brand-purple/10 hover:shadow-glow;
+  }
+
+  .card {
+    @apply bg-background-card rounded-xl p-6 transition-all duration-300
+           hover:shadow-glow hover:scale-[1.02];
+  }
+
+  .gradient-text {
+    @apply bg-gradient-primary bg-clip-text text-transparent;
+  }
+}
